@@ -1,0 +1,11 @@
+n=int(input())
+s1=0
+s2=0
+while(n>0):
+    num=n%10
+    if(num%2==0):
+        s1+=num
+    else:
+        s2+=num
+    n=n//10
+print(s1*s2)
